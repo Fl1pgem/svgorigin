@@ -1,3 +1,47 @@
+.main-background{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  background-color:aquamarine;
+  width:100%;
+  height:100vh;
+}
+.main-background__circle1{
+  stroke-width:5px;
+  stroke:#d35858;
+  fill:blue;
+  opacity:0.95;
+}
+.main-background__rect1{
+  stroke-width:5px;
+  stroke:black;
+  fill:red;
+  opacity:0.9;
+}
+.main-background__rect2{
+  stroke-width:5px;
+  stroke:yellow;
+  fill:green;
+  opacity:0.85;
+}
+.main-background__ellipse1{
+  stroke-width:5px;
+  stroke:rgb(255, 255, 227);
+  -webkit-transition:1s;
+  transition:1s;
+  fill:url(#grad1);
+}
+.main-background__ellipse1:hover{
+  stroke:indianred;
+  fill:url(#grad2);
+}
+
 *{
   -webkit-box-sizing:border-box;
           box-sizing:border-box;
